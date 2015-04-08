@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Very useful tool to visualize and drill down the disk usage of your WordPress installation. Find and identify
+Visualize and drill down the disk usage of your whole WordPress installation. Find and identify
 big files immediately!
 
 == Description ==
@@ -19,6 +19,9 @@ The bigger the arc is the bigger is the file/directory.
 Very useful to determine the biggest files in your WordPress installation!
 
 Click on an arc to zoom in, and click in the circle to zoom out again.
+
+Questions? Drop a mail to marcel@raidboxes.de
+
 
 == Installation ==
 
