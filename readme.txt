@@ -49,7 +49,7 @@ PHP time limit in your WordPress and try to increase it.
 
 == Upgrade Notice ==
 
-Just upgrade. No side effects.
+Just upgrade. No side effects. Works!
 
 == Thanks ==
 
