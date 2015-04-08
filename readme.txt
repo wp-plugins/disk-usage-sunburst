@@ -1,5 +1,5 @@
 === Disk Usage Sunburst ===
-Contributors: binario
+Contributors: raidboxes
 Tags: disk usage, disk space, big files, disc consumption, file consumption, file usage, file space, sunburst, SequoiaView, DaisyDisk, WinDirStat, DiskUsage, DiskSpace
 Requires at least: 4.0
 Tested up to: 4.1.1
@@ -12,9 +12,9 @@ big files immediately!
 
 == Description ==
 
-This plugin shows all files of your WordPress at once. These are displayed in a so called "Sunburst Chart". Each
-arc of the chart is either a directory or a file. Move your mouse over an arc to see the size of the file or directory.
-The bigger a file/directory is the bigger is the arc.
+This plugin shows all files of your WordPress installation at once. These are displayed in a so called "Sunburst Chart".
+Each arc of the chart is either a directory or a file. Move your mouse over an arc to see the size of the file or directory.
+The bigger the arc is the bigger is the file/directory.
 
 Very useful to determine the biggest files in your WordPress installation!
 
@@ -22,25 +22,20 @@ Click on an arc to zoom in, and click in the circle to zoom out again.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload `disk-usage-sunburst.zip` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-
-See it in action under Tools -> Disk Usage!
+1. See it in action under `Tools` -> `Disk Usage`!
 
 == Frequently Asked Questions ==
 
 = Where is it? =
 
-After activation you find the tool under Tools -> Disk Usage
+After activation you find the tool under `Tools` -> `Disk Usage`
 
 = Loading bar doesn't go away =
 
-Unfortunately this plugin can't calculate the sizes of all your WordPress files. Check if there's a
-php time limit in your WordPress and try to increase it.
+In this case unfortunately this plugin can't calculate the sizes of all your WordPress files. Check if there's a
+PHP time limit in your WordPress and try to increase it.
 
 == Screenshots ==
 
@@ -58,16 +53,7 @@ Just upgrade. No side effects.
 
 == Thanks ==
 
-Thanks to Mike Bostock for his great "d3js"
-    http://d3js.org
-
-Thanks to Mike Bostock for his awesome "Zoomable Sunburst" implementation
-    http://bl.ocks.org/mbostock/4348373
-
-Thanks to Jeffrey Sambells for his "Human Readable File Size with PHP"
-    http://jeffreysambells.com/2012/10/25/human-readable-filesize-php
-
-
-`<?php code(); // goes in backticks ?>`
-
+Thanks to Mike Bostock for his great "d3js":  http://d3js.org
+Thanks to Mike Bostock for his awesome "Zoomable Sunburst" implementation: http://bl.ocks.org/mbostock/4348373
+Thanks to Jeffrey Sambells for his "Human Readable File Size with PHP": http://jeffreysambells.com/2012/10/25/human-readable-filesize-php
 
