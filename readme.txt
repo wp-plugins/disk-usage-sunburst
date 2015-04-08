@@ -54,6 +54,8 @@ Just upgrade. No side effects.
 == Thanks ==
 
 Thanks to Mike Bostock for his great "d3js":  http://d3js.org
+
 Thanks to Mike Bostock for his awesome "Zoomable Sunburst" implementation: http://bl.ocks.org/mbostock/4348373
+
 Thanks to Jeffrey Sambells for his "Human Readable File Size with PHP": http://jeffreysambells.com/2012/10/25/human-readable-filesize-php
 
