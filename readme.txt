@@ -20,7 +20,7 @@ Very useful to determine the biggest files in your WordPress installation!
 
 Click on an arc to zoom in, and click in the circle to zoom out again.
 
-Questions? Drop a mail to marcel@raidboxes.de
+Questions? Drop me a mail marcel@raidboxes.de
 
 
 == Installation ==
