@@ -3,7 +3,7 @@ Contributors: raidboxes
 Tags: disk usage, disk space, big files, disk consumption, file consumption, file usage, file space, sunburst, SequoiaView, DaisyDisk, WinDirStat, DiskUsage, DiskSpace, disk free, disk full, hdd space, hdd free, hdd usage, WinStatDir, Sequoia, quota, hosting space, web space
 Requires at least: 4.0
 Tested up to: 4.1.1
-Stable tag: trunk
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,9 +12,9 @@ big files immediately!
 
 == Description ==
 
-This plugin shows all files of your WordPress installation at once. These are displayed in a so called "Sunburst Chart".
-Each arc of the chart is either a directory or a file. Move your mouse over an arc to see the size of the file or directory.
-The bigger the arc is the bigger is the file/directory.
+This plugin (`Tools` -> `Disk Usage`) shows all files of your WordPress installation at once. These are displayed in a so
+called "Sunburst Chart". Each arc of the chart is either a directory or a file. Move your mouse over an arc to see the size
+of the file or directory. The bigger the arc is the bigger is the file/directory.
 
 Very useful to determine the biggest files in your WordPress installation!
 
@@ -47,7 +47,12 @@ PHP time limit in your WordPress and try to increase it.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Code enhanced: replaced code 10 with 'administrator' capability when calling add_submenu_page (thanks to doume, https://wordpress.org/support/topic/v100-deprecated-argument-in-function-call)
+* User Interface enhanced: tooltip follows mouse cursor when mouse is moving
+* Bug fixed: the distance between tooltip and mouse cursor was dependent on the scroll position
+
+= 1.0.0 =
 * First Version
 
 == Upgrade Notice ==
