@@ -15,7 +15,7 @@ defined('ABSPATH') or die();
 $RBDUSB_ABSPATH = ABSPATH;
 
 add_action('admin_menu', function() {
-    add_submenu_page('tools.php', 'Disk Usage', 'Disk Usage', 10, __FILE__, 'rbdusb_action');
+    add_submenu_page('tools.php', 'Disk Usage', 'Disk Usage', 'administrator', __FILE__, 'rbdusb_action');
 });
 add_action('admin_enqueue_scripts', function() {
     wp_register_script('rbdusb_d3', plugins_url('/js/d3.v3.min.js', __FILE__));
