@@ -9,7 +9,7 @@
       fill-rule: evenodd;
     }
     div.tooltip {
-      position: absolute;
+      position: fixed;
       text-align: center;
       min-width: 60px;
       min-height: 14px;
@@ -68,15 +68,14 @@
                 .attr("d", arc)
                 .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
                 .on("click", click)
-                .on("mouseover", function(d) {
-                    var _pos = jQuery("#rbdusb_svg").offset();
+                .on("mousemove", function(d) {
                     tooltip.transition().duration(200).style("opacity", .9);
                     tooltip.html(d.name)
-                      .style("left", ((d3.event.clientX - _pos.left) + "px"))
-                      .style("top", (d3.event.clientY - _pos.top) + "px");
+                      .style("left", (d3.event.clientX + 20) + "px")
+                      .style("top", (d3.event.clientY - 20) + "px");
                 })
-                .on("mouseout", function(d) {
-                    tooltip.transition().duration(500).style("opacity", 0);
+                .on("mouseout", function() {
+                    tooltip.transition().duration(200).style("opacity", 0);
                 });
 
             function click(d) {
