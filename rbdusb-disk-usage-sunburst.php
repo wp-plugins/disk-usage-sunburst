@@ -5,7 +5,7 @@
  * Description: Visualizes the size of all directories in your WordPress installation.
  * Author:      RAIDBOXES.de
  * Author URI:  https://raidboxes.de
- * Version:     1.0.0
+ * Version:     1.0.2
  * License:     GPL2
  * Network:     true
  */
