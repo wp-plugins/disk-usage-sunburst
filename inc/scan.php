@@ -8,7 +8,7 @@ function rbdusb_humanreadablesize($bytes, $decimals = 2) {
 
 function rbdusb_scan($START_PATH, $path, $level = 0) {
 
-    $ret = [];
+    $ret = array();
     $ret["name"] = basename($path);
     $ret["size"] = 0;
 
@@ -18,7 +18,7 @@ function rbdusb_scan($START_PATH, $path, $level = 0) {
 
     } else {
 
-        $children = [];
+        $children = array();
 
         $files = scandir($path);
         foreach ($files as $file) {

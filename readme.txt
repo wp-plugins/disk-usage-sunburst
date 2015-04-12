@@ -3,8 +3,8 @@ Contributors: raidboxes
 Tags: disk usage, disk space, big files, disk consumption, file consumption, file usage, file space, sunburst, SequoiaView, DaisyDisk, WinDirStat, DiskUsage, DiskSpace, disk free, disk full, hdd space, hdd free, hdd usage, WinStatDir, Sequoia, quota, hosting space, web space
 Requires at least: 4.0
 Tested up to: 4.1.1
-Version: 1.0.1
-Stable tag: 1.0.1
+Version: 1.0.2
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,9 @@ PHP time limit in your WordPress and try to increase it.
 2. This is the second screen shot
 
 == Changelog ==
+
+= 1.0.2 =
+* Bug fixed: converted short array syntax to long array syntax to support PHP versions < 5.4.0
 
 = 1.0.1 =
 * Code enhanced: replaced code 10 with 'administrator' capability when calling add_submenu_page (thanks to doume, https://wordpress.org/support/topic/v100-deprecated-argument-in-function-call)
