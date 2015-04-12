@@ -84,7 +84,9 @@
                 .attrTween("d", arcTween(d));
             }
         }
-    );
+    ).fail(function() {
+            jQuery('#rbdusb_loading').html('Unfortunately there was an error. File/directory sizes could not be determined. Reload to try again.');
+    });
 
     d3.select(self.frameElement).style("height", height + "px");
 

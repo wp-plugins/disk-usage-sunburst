@@ -3,8 +3,8 @@ Contributors: raidboxes
 Tags: disk usage, disk space, big files, disk consumption, file consumption, file usage, file space, sunburst, SequoiaView, DaisyDisk, WinDirStat, DiskUsage, DiskSpace, disk free, disk full, hdd space, hdd free, hdd usage, WinStatDir, Sequoia, quota, hosting space, web space
 Requires at least: 4.0
 Tested up to: 4.1.1
-Version: 1.0.2
-Stable tag: 1.0.2
+Version: 1.0.3
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,9 @@ PHP time limit in your WordPress and try to increase it.
 2. This is the second screen shot
 
 == Changelog ==
+
+= 1.0.3 =
+* Bug fixed: Show error message if calculation of file/directory sizes fails (e.g. because of time limit)
 
 = 1.0.2 =
 * Bug fixed: converted short array syntax to long array syntax to support PHP versions < 5.4.0 (thanks to websupporter, https://wordpress.org/support/topic/parse-error-syntax-error-unexpected-146)
