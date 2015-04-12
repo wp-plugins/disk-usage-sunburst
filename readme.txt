@@ -49,7 +49,7 @@ PHP time limit in your WordPress and try to increase it.
 == Changelog ==
 
 = 1.0.2 =
-* Bug fixed: converted short array syntax to long array syntax to support PHP versions < 5.4.0
+* Bug fixed: converted short array syntax to long array syntax to support PHP versions < 5.4.0 (thanks to websupporter, https://wordpress.org/support/topic/parse-error-syntax-error-unexpected-146)
 
 = 1.0.1 =
 * Code enhanced: replaced code 10 with 'administrator' capability when calling add_submenu_page (thanks to doume, https://wordpress.org/support/topic/v100-deprecated-argument-in-function-call)
