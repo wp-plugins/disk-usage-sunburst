@@ -48,6 +48,9 @@ PHP time limit in your WordPress and try to increase it.
 
 == Changelog ==
 
+= 1.0.4 =
+* Bug fixed: browsers without SVG support didn't see anything. Now these will get a nice red error message ;-)
+
 = 1.0.3 =
 * Bug fixed: Show error message if calculation of file/directory sizes fails (e.g. because of time limit)
 

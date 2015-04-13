@@ -1,9 +1,13 @@
 <h1>Disk Usage</h1>
-<p>Click on any arc to zoom in, and click on the center circle to zoom out.</p>
+<div>Click on any arc to zoom in, and click on the center circle to zoom out.</div>
 
+<div id="svg_not_supported"></div>
 <div id="rbdusb_loading"><img src="<?=plugins_url('/../img/loading.gif', __FILE__)?>"></div>
 
 <style>
+    #svg_not_supported {
+        color:red;
+    }
     path {
       stroke: #fff;
       fill-rule: evenodd;
@@ -21,6 +25,13 @@
     }
 </style>
 <script>
+
+    function supportsSVG() {
+        return !!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', "svg").createSVGRect;
+    }
+    if (!supportsSVG()) {
+        jQuery('#svg_not_supported').html("This plugin depends on SVG. Unfortunately your browser does not support SVG. Please update to a modern browser...");
+    }
 
     var width = 960,
         height = 700,
