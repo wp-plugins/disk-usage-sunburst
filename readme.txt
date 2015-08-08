@@ -2,7 +2,7 @@
 Contributors: raidboxes
 Tags: disk usage, disk space, big files, disk consumption, file consumption, file usage, file space, sunburst, SequoiaView, DaisyDisk, WinDirStat, DiskUsage, DiskSpace, disk free, disk full, hdd space, hdd free, hdd usage, admin, WinStatDir, Sequoia, quota, hosting space, web space, disk stats, disk statistics, stats, statistics
 Requires at least: 4.0
-Tested up to: 4.1.1
+Tested up to: 4.3.0
 Version: 1.0.4
 Stable tag: 1.0.4
 License: GPLv2 or later
